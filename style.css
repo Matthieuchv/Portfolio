@@ -1,0 +1,193 @@
+/* === Réglages de base === */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #222;
+  background: #fafafa;
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+}
+
+/* === Navigation === */
+.navbar {
+  display: flex;
+  gap: 24px;
+  padding: 20px 40px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #5b5bd6;
+}
+
+/* === Hero === */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 24px;
+}
+
+/* === Bouton === */
+.btn {
+  display: inline-block;
+  background: #5b5bd6;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* === Sections === */
+.section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  border-top: 1px solid #ddd;
+}
+
+.section h2 {
+  margin-bottom: 16px;
+}
+
+/* ===== Expériences ===== */
+.experience-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+.experience-card h3 {
+  margin-bottom: 4px;
+}
+
+.experience-meta {
+  color: #5b5bd6;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.experience-card ul {
+  padding-left: 20px;
+  color: #444;
+  font-size: 14px;
+}
+
+.experience-card li {
+  margin-bottom: 6px;
+}
+
+/* ===== Compétences ===== */
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+}
+
+.skill-card {
+  width: 100%;
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 6px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.skill-value {
+  color: #5b5bd6;
+  white-space: nowrap;
+}
+
+.skill-track {
+  width: 100%;
+  height: 14px;
+  background: #e5e5e3;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.skill-fill {
+  height: 100%;
+  width: 0%;
+  background: #5b5bd6;
+  border-radius: 7px 0 0 7px;
+  transition: width 1s ease-out;
+}
+
+/* ===== Projets ===== */
+.projets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.projet-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.projet-card h3 {
+  margin-bottom: 8px;
+}
+
+.projet-card p {
+  color: #555;
+  font-size: 14px;
+}
+
+.projet-card .btn {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 14px;
+  padding: 8px 16px;
+}
+
+/* ===== Contact ===== */
+.contact-info {
+  margin-top: 12px;
+  color: #555;
+  font-size: 14px;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+  font-size: 13px;
+}
